@@ -1,0 +1,87 @@
+
+// Program: Avalon MT4
+// Developer Site: forexroboteasy.com
+// Development Name: Forex Robot Easy Team
+
+// Indicator Visibility
+bool isIndicatorVisible = false;
+
+void OnTick()
+{
+    // Check if the visibility of indicators is enabled
+    if(isIndicatorVisible)
+    {
+        // Code to ensure the visibility of indicators throughout the entire candle
+        // ...
+        // ...
+    }
+    else
+    {
+        // Code to prevent indicators from disappearing after a certain period
+        // ...
+        // ...
+    }
+    
+    // Code to provide real-time and accurate data for traders to make informed decisions
+    // ...
+    // ...
+}
+
+// Multi-Currency Trading
+string[] currencyPairs = {'EURUSD', 'GBPUSD', 'USDJPY', 'AUDUSD', 'USDCHF'};
+
+void TradeMultipleCurrencyPairs()
+{
+    for(int i = 0; i < ArraySize(currencyPairs); i++)
+    {
+        // Code to enable trading across multiple currency pairs
+        // ...
+        // ...
+    }
+}
+
+// User-Friendly Interface
+void OnStart()
+{
+    // Code to design a user-friendly interface for the Avalon MT4 software
+    // ...
+    // ...
+    
+    // Code to develop intuitive navigation and controls for easy usage
+    // ...
+    // ...
+    
+    // Code to ensure a seamless user experience for both beginners and professionals
+    // ...
+    // ...
+}
+
+// Logical Conclusion
+void OnDeinit(const int reason)
+{
+    // Code to handle the deinitialization of the program
+    // ...
+    // ...
+}
+
+// Entry point of the program
+int OnInit()
+{
+    // Code to initialize the program
+    // ...
+    // ...
+    
+    // Call the necessary functions for indicator visibility, multi-currency trading, and user-friendly interface
+    OnTick();
+    TradeMultipleCurrencyPairs();
+    OnStart();
+    
+    // Return the initialization result
+    return(INIT_SUCCEEDED);
+}
+
+// Program execution starts here
+void main()
+{
+    OnInit();
+}
